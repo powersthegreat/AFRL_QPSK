@@ -1,0 +1,29 @@
+# Ignore Other
+*.htm
+.ipynb_checkpoints
+.idea
+
+# Ignore Logs
+*.log
+
+# Ignore Simulink Files
+*.autosave
+*.asv
+*.slxc
+*\.hbs
+*\.Xil
+*\hdl_prj
+*\slprj
+*\wavedata
+*\netlist
+
+# Ignore Vivado Files
+*.jou
+*vivado.txt
+*vivado.jou
+*vivado.log
+
+# Ignore ./rfstrath/rfstrath/
+**/rfsoc_radio/block_design
+**/rfsoc_radio/bitstream
+rfsoc_radio.tar.gz
